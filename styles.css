@@ -26,10 +26,11 @@ img{
 header{
     padding: 50px 0;
 }
-header.logo{
+header.logo {
+
     text-transform: uppercase;
     font-size: 60px;
-    font-weight: 1200;
+    font-weight: 120;
 }
 header nav{
     float: right;
@@ -112,16 +113,86 @@ header nav ul li.button a:hover {
     top: 70px;
     right: -40px;
 }
-
-
-
-
-
-
-
-
-
-
+.trending{
+    padding-top: 50px;
+}
+.trending h3{
+    font-weight: 600;
+    font-size: 30px;
+}
+.trending .see-all{
+    color: #fff;
+    background: #ff7d04;
+    border-radius: 5px;
+    padding: 12px 23px;
+    float: right;
+    display: block;
+    transition: all 0.5s ease;
+}
+.trending .see-all:hover{
+    transform: scale(1.1);
+}
+.trending .cities{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50px 0;
+}
+.trending .cities h2{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.big-text{
+    font-size: 30px;
+    padding: 50px 0;
+    font-weight: 600;
+    text-align: center;
+    width: 800px;
+}
+footer{
+    padding: 50px 0;
+    background: black;
+}
+footer .blocks{
+    display: flex;
+    justify-content: space-between;
+}
+footer .blocks .logo {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 120;
+}
+footer .blocks ul{
+    list-style: none;
+}
+footer .blocks ul li{
+    margin-top: 7px;
+    opacity: 0.8;
+}
+footer .blocks p{
+    width: 300px;
+    margin: 15px 0;
+}
+footer .blocks h4{
+    font-weight: 800;
+    font-size: 17px;
+}
+footer .blocks h5{
+    font-weight: 800;
+    font-size: 17px;
+    list-style: none;
+}
+footer hr{
+    margin: 30px 0;
+    border: 0;
+    height: 0.4px;
+    background: darkgray;
+}
+footer > p{
+    text-align: center;
+    font-size: 10px;
+}
 
 
 
