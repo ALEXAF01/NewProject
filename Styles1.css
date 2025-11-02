@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: Poppins, sans-serif;
+  background-color: #f3f4f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+#wrapper {
+  width: 100%;
+  max-width: 440px;
+}
+
+.registration-menu {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  text-align: center;
+}
+
+.registration-menu h2 {
+  margin: 0 0 24px 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #111;
+  letter-spacing: -0.5px;
+}
+
+.form-group {
+  text-align: left;
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+.form-group input {
+  width: 100%;
+  max-width: 100%;
+  padding: 12px 14px;
+  font-size: 16px;
+  color: #111;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d4d8;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #007acc;
+  background-color: white;
+  box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.2);
+}
+
+.form-group input:invalid {
+  border-color: #d63a3a;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  background-color: #007acc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0066a3;
+}
+
+button:active {
+  background-color: #00568c;
+}
+
+.registration-menu p {
+  margin: 20px 0 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+#loginLink {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#loginLink:hover {
+  text-decoration: underline;
+}
+
+#registrationError {
+  font-size: 14px;
+  margin: 12px 0;
+  text-align: left;
+  min-height: 18px;
+  color: #d63a3a;
+}
