@@ -1,55 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="/css/Style1.css">
     <meta charset="UTF-8">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Туризм.ру</title>
+<link rel="stylesheet" href="css/Styles1.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="content">
-            <h1>Туризм.ру</h1>
-    <div class="menu">
-        <ul>
-          <li class="button"><a href="index.html">Главная страница</a></li>
-          <li class="button"><a href="visit.html">Путешествие</a></li>
-          <li class="active"><a href="registration-menu.html">Регистрация</a></li>
-        </ul>
-    <div id="wrapper">
-  <div class="registration-menu">
-    <h2>Регистрация</h2>
-    <form id="registrationForm">
-      <div class="form-group">
-        <label for="username">Имя пользователя:</label>
-        <input type="text" id="username" name="username" required />
+
+            <header class="container">
+                <span class="logo">КУЗНЕЦ ПУТЕШЕСТВИЙ</span>
+                <nav>
+                    <ul>
+                        <li class="button"><a href="index.html">Главная</a></li>
+                        <li class="button"><a href="visit.html">Путешествие</a></li>
+                        <li class="active"><a href="registration-menu.html">Регистрация</a></li>
+                        <li class="button"><a href="enter.html">Войти</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <hr>
+      <div class="wrapper">
+        <div class="registration-menu">
+          <h2>Регистрация</h2>
+          <f id="registrationForm">
+            <div class="form-group">
+              <input type="text" placeholder="Имя пользователя" required />
+              <i class='bx bx-user'></i>
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Почта" required />
+              <i class='bx bx-envelope'></i>
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Пароль" required />
+              <i class='bx bxs-key'></i>
+            </div>
+
+            <div class="form-group">
+              <input type="text" placeholder="Подтвердите пароль" required />
+              <i class='bx bxs-keyboard'></i>
+            </div>
+            <div class="rememberMe">
+              <label for=""><input type="checkbox">Запомнить меня</label>
+              <a href="#">Забыли пароль?</a>
+            </div>
+            <button type="submit" class="button"><a href="#"></a>Зарегестрироваться</button>
+            <div class="register-link">
+            <p>Уже есть аккаунт?<a href="#" class="loginLink">Войти</a></p>
+            </div>
+        </div>
       </div>
 
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-      </div>
 
-      <div class="form-group">
-        <label for="password">Пароль:</label>
-        <input type="password" id="password" name="password" required />
-      </div>
 
-      <div class="form-group">
-        <label for="confirmPassword">Подтвердите пароль:</label>
-        <input type="password" id="confirmPassword" name="confirmPassword" required />
-      </div>
 
-      <button type="submit">Зарегистрироваться</button>
-    </form>
 
-    <p>
-      Уже есть аккаунт?
-      <a href="#" id="loginLink">Войти</a>
-    </p>
-  </div>
-  </div>
     <footer>
-        Подвал &copy;
+        <div class="blocks container">
+            <div>
+                <span class="logo">КУЗНЕЦ ПУТЕШЕСТВИЙ</span>
+                    <p>Мы поможем вам спланировать ваше лучшее путешествие по нашей необъятной родине</p>
+            </div>
+                
+                <div>
+                    <h4>Контакты</h4>
+                    <ul>
+                            <li>+7(999)999-99-99</li>
+                            <li>turizm@gmail.com</li>
+                            <li>г.Москва, ул.Ленина, д.1</li>
+                    </ul>
+                </div>
+        </div>
+                <hr>
+                <p>Работаем с 2025г.</p>
     </footer>
-    </div>
-</div>
+</body>
+</html>
