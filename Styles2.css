@@ -16,7 +16,7 @@ img{
     max-width: 100%;
 }
 .wrapper{
-    background: linear-gradient(90deg,rgba(20, 151, 227, 1) 0%, rgba(43, 195, 255, 1) 100%);
+    background: linear-gradient(90deg,rgba(20, 151, 227, 1) 100%);
     width: 100%;
 }
 .container{
@@ -25,13 +25,12 @@ img{
 }
 header{
     padding: 50px 0;
-    height: 35px;
 }
 header.logo {
 
     text-transform: uppercase;
-    font-size: 35px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 120;
 }
 header nav{
     float: right;
@@ -73,85 +72,41 @@ header nav ul li.button a{
 header nav ul li.button a:hover {
     background: #078C00;
 }
-.hero{
-    padding-bottom: 100px;
-    position: relative;
-
+.perv {
+    font-size: 40px;
+    margin-top: 20px;
 }
-.hero--info{
-    width: 530px;
-    padding-top: 70px;
-
-}
-.hero--info h2{
-    color: #19f10d;
-    font-size: 30px;
-    font-weight: 600;
-}
-.hero--info h1{
-    font-size: 50px;
-    font-weight: 600;
-}
-.hero--info p {
-    font-weight: 500;
-    line-height: 100%;
-    margin: 30px 0;
-}
-.hero--info .button{
-    background: #18CF0E;
-    color: #fff;
-    border-radius: 50px;
-    padding: 15px 30px;
-    border: 0;
-    transition: all 0.5s ease;
-    font-size: 18px;
-}
-.hero--info .button:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-}
-.hero img{
-    position: absolute;
-    top: 70px;
-    right: -40px;
-}
-.trending{
-    padding-top: 50px;
-}
-.trending h3{
-    font-weight: 600;
-    font-size: 30px;
-}
-.trending .see-all{
-    color: #fff;
-    background: #18CF0E;
-    border-radius: 5px;
-    padding: 12px 23px;
-    float: right;
-    display: block;
-    transition: all 0.5s ease;
-}
-.trending .see-all:hover{
-    transform: scale(1.1);
-}
-.trending .cities{
+.cities {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     padding: 50px 0;
 }
-.trending .cities h2{
+.cities1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px 0;
+}
+.TxtUnderImg li a {
+    color:white;
+    text-decoration: none;
     display: block;
     text-align: center;
-    margin-top: 20px;
-}
-.big-text{
+    margin-top: 10px;
     font-size: 30px;
-    padding: 50px 0;
-    font-weight: 600;
-    text-align: center;
-    width: 800px;
 }
+.TxtUnderImg li a:hover {
+    text-decoration: underline;
+}
+.TxtUnderImg ul li {
+    list-style: none;
+}
+.nach {
+    font-size: 40px;
+    margin-top: 150px;
+}
+
 footer{
     padding: 50px 0;
     background: black;
@@ -196,75 +151,3 @@ footer > p{
     text-align: center;
     font-size: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
